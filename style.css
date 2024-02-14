@@ -1,0 +1,73 @@
+.text-box h3:nth-child(1) {
+    color: pink;
+  }
+  
+  #greycol {
+    color: grey;
+  }
+  
+   .text-box div p {
+color: red;
+  }
+  
+    .text-box p:nth-child(7) {
+    color: green;
+  }
+  
+  .text-box p.yellow {
+  color: yellow;
+  }
+
+  .day-list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+  }
+
+  .day-list li {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .day-list li:hover {
+    background-color: #f2f2f2;
+  }
+
+  .day-list li:active {
+    background-color: #e7e5e5;
+  }
+
+  .day-list li:focus {
+    outline: 2px solid #4CAF50;
+  }
+
+  .day-list li:checked {
+    background-color: #8cff66;
+  }
+
+  .day-list li:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .day-list li:first-child {
+    background-color: #ffd699;
+  }
+
+  .day-list li:last-child {
+    background-color: #ff9999;
+  }
+
+  .day-list li:nth-child(odd)  {
+    background-color: #b3e0ff;
+}
+
+  .day-list li:nth-child(even){
+    background-color: #ffccff;
+  }
+
+  .day-list li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
